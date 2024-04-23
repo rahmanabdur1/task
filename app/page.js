@@ -31,43 +31,43 @@ const Home = () => {
         <div className="grid">
           <div className='input'>
             <span>From:</span>
-            <select className="option" id="country" name="country">
-              <option value="australia">Hazrat Shajalal  Inti Airport [ DAC ]</option>
-              <option value="australia">Hazrat Shajalal  Inti Airport [ DAC ]</option>
+            <select className="option" id="destination" name="destination">
+              <option value="airport">Hazrat Shajalal  Inti Airport [ DAC ]</option>
+              <option value="airport">Hazrat Shajalal  Inti Airport [ DAC ]</option>
             </select>
           </div>
           <div className="input">
           <span>To:</span>
-            <select className="option" id="country" name="country">
-              <option value="australia">DUBAI Inti Airport [ DAX ]</option>
-              <option value="australia">dUBAI Inti Airport [ DAX ]</option>
+            <select className="option" id="destination" name="destination">
+              <option value="airport">DUBAI Inti Airport [ DAX ]</option>
+              <option value="airport">dUBAI Inti Airport [ DAX ]</option>
             </select>
           </div>
           <div className="input">
         <span><FaCalendarAlt /></span>
-            <select className="option" id="country" name="country">
-              <option value="australia">Departure</option>
-              <option value="australia">Departure</option>
+            <select className="option" id="destination" name="destination">
+              <option value="deperture">Departure</option>
+              <option value="deperture">Departure</option>
             </select>
           </div>
           <div className="input">
          <span><FaCalendarAlt /></span>
-            <select className="option" id="country" name="country">
-              <option value="australia">Add Return</option>
-              <option value="australia">Add Return</option>
+            <select className="option" id="destination" name="destination">
+              <option value="return">Add Return</option>
+              <option value="return">Add Return</option>
             </select>
           </div>
           <div className="input">
         <span><FaUserAstronaut /></span>
-            <select className="option" id="country" name="country">
-              <option value="australia">Select Class</option>
-              <option value="australia">Select Class</option>
+            <select className="option" id="destination" name="destination">
+              <option value="class">Select Class</option>
+              <option value="class">Select Class</option>
             </select>
           </div>
           <div className="input">
          <span><FaPersonWalkingLuggage /></span>
-            <select className="option" id="country" name="country">
-            <option value="australia">Select Traveler</option>
+            <select className="option" id="destination" name="destination">
+            <option value="traveler">Select Traveler</option>
             </select>
           </div>
         </div>
