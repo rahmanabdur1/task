@@ -5,7 +5,7 @@
 
 .menu {
   flex: 1;
-  background-color: #36bab2;
+  background-color:  	  #4dc1bb;
   padding: 20px;
   min-height: 100vh;
 }
@@ -96,7 +96,7 @@ textarea {
   text-align: center;
   border-radius: 12px;
   max-width: 700px;
-  background-color: #36bab2;
+  background-color:	  #4dc1bb;
   padding: 30px;
 }
 
@@ -126,51 +126,51 @@ textarea {
   margin: auto;
 }
 
-.search-btn:hover{
+.search-btn:hover {
   background-color: white;
   color: #737373;
 }
 
-.three{
+.three {
   background-color: white;
   width: max-content;
   border-radius: 22px;
   display: flex;
   justify-content: center;
-  margin: auto ;
+  margin: auto;
   gap: 12px;
 }
 
-.three button{
+.three button {
   padding: 13px;
   outline: none;
-  color:#595959;
+  color: #595959;
   font-weight: 600;
   border: none;
   border-radius: 22px;
   font-size: 11.5px;
 }
 
-.three button:nth-child(1){
+.three button:nth-child(1) {
   background-color: #6ddad6;
   color: white;
 }
 
-.three button:nth-child(1):hover{
-   background-color: #4d4d4d;
+.three button:nth-child(1):hover {
+  background-color: #4d4d4d;
 }
 
-.three button:nth-child(2):hover{
+.three button:nth-child(2):hover {
   background-color: #6ddad6;
   color: white;
 }
 
-.three button:nth-child(3):hover{
+.three button:nth-child(3):hover {
   background-color: #6ddad6;
   color: white;
 }
 
-.pad{
+.pad {
   display: flex;
   gap: 14px;
   background-color: #6ddad6;
@@ -179,28 +179,29 @@ textarea {
   border-radius: 8px;
 }
 
-.pad div:nth-child(1){
-padding: 8px;
-border-radius: 4px;
-display: flex;
-align-items: center;
-gap: 4px;
-color: #737373;
-font-weight: 600;
-background-color: white;
+.pad div:nth-child(1) {
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #737373;
+  font-weight: 600;
+  background-color: white;
 }
-  .i{
-    font-size: 20px;
-  }
 
-  .s{
-    font-size: 12px;
-  }
+.i {
+  font-size: 20px;
+}
 
-  .ii{
-    font-size: 23px;
-  }
+.s {
+  font-size: 12px;
+}
 
-  .ss{
-    font-size: 10px;
-  }
+.ii {
+  font-size: 23px;
+}
+
+.ss {
+  font-size: 10px;
+}
