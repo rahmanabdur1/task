@@ -1,0 +1,23 @@
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    color:white;
+  }
+  
+  .container:hover,
+  .active {
+    background-color:#e3eaf3;
+    color: black;
+  }
+
+  .container span:nth-child(1){
+    font-size: 19px;
+  }
+
+  .container span:nth-child(2){
+    font-size: 14px;
+  }

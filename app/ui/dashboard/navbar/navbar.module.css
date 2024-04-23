@@ -1,0 +1,26 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: 	  #36bab2;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .users{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+  .notification{
+    color: #ccc;
+    font-size: 21px;
+  }
+
+  .name{
+    font-size: 11px;
+    font-weight: 600;
+  }

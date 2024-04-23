@@ -1,95 +1,80 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { MdFlight } from "react-icons/md";
+import { TbPng } from "react-icons/tb";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaPersonWalkingLuggage } from "react-icons/fa6";
+import { FaUserAstronaut } from "react-icons/fa";
+import backgroundImage from '../public/trip-3.jpg'; // Import your background image
+import Image from 'next/image'
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
+  
+    <div className="home">
+  <div className="background-image">
+    <Image src={backgroundImage} alt="Background Image" layout="fill" objectFit=" cover" />
+  </div>
+      <div className="pad">
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+          <MdFlight className="i"/>
+          <span className="s">search pad</span>
         </div>
+        
       </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+
+      <div className="selected">
+        <div className="three">
+          <button>ONE WAY</button>
+          <button>RONALD WAY</button>
+          <button>MJJTI CITY</button>
+        </div>
+        <div className="grid">
+          <div className='input'>
+            <span>From:</span>
+            <select className="option" id="country" name="country">
+              <option value="australia">Hazrat Shajalal  Inti Airport [ DAC ]</option>
+              <option value="australia">Hazrat Shajalal  Inti Airport [ DAC ]</option>
+            </select>
+          </div>
+          <div className="input">
+          <span>To:</span>
+            <select className="option" id="country" name="country">
+              <option value="australia">DUBAI Inti Airport [ DAX ]</option>
+              <option value="australia">dUBAI Inti Airport [ DAX ]</option>
+            </select>
+          </div>
+          <div className="input">
+        <span><FaCalendarAlt /></span>
+            <select className="option" id="country" name="country">
+              <option value="australia">Departure</option>
+              <option value="australia">Departure</option>
+            </select>
+          </div>
+          <div className="input">
+         <span><FaCalendarAlt /></span>
+            <select className="option" id="country" name="country">
+              <option value="australia">Add Return</option>
+              <option value="australia">Add Return</option>
+            </select>
+          </div>
+          <div className="input">
+        <span><FaUserAstronaut /></span>
+            <select className="option" id="country" name="country">
+              <option value="australia">Select Class</option>
+              <option value="australia">Select Class</option>
+            </select>
+          </div>
+          <div className="input">
+         <span><FaPersonWalkingLuggage /></span>
+            <select className="option" id="country" name="country">
+            <option value="australia">Select Traveler</option>
+            </select>
+          </div>
+        </div>
+        <button className='search-btn'>Search Flight</button>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
-}
+};
+
+export default Home;
