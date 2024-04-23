@@ -10,8 +10,8 @@
   
   .container:hover,
   .active {
-    background-color:#e3eaf3;
-    color: black;
+    background-color:#6ddad6;
+    
   }
 
   .container span:nth-child(1){
