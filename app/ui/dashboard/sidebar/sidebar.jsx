@@ -28,7 +28,7 @@ const menuItems = [
         icon:<IoRocketOutline />,
       },
       {
-        title: "deposite",
+        title: "  Deposite",
         path: "/dashboard/deposite",
         icon: <RiLuggageDepositFill />,
       },

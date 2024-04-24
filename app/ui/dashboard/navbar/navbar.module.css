@@ -3,7 +3,7 @@
     border-radius: 10px;
     background-color:	  #4dc1bb;
     display: flex;
-    color: white;
+    color: #e3eaf3;
     align-items: center;
     justify-content: space-between;
   }
@@ -16,7 +16,6 @@
 
 
   .notification{
-    color: #ccc;
     font-size: 21px;
   }
 
@@ -24,3 +23,53 @@
     font-size: 11px;
     font-weight: 600;
   }
+
+  .opensidebar{
+  cursor: pointer;
+  font-size: larger;
+  }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#4dc1bb;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+}
+.overlay_content{
+  width: 0%;
+}
+

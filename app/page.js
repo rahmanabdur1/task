@@ -8,19 +8,17 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-  
+
     <div className="home">
-  <div className="background-image">
-    <Image src={backgroundImage} alt="Background Image" layout="fill" objectFit=" cover" />
-  </div>
+      <div className="background-image">
+        <Image src={backgroundImage} alt="Background Image" layout="fill" />
+       </div>
       <div className="pad">
         <div>
-          <MdFlight className="i"/>
-          <span className="s">search pad</span>
-        </div>
-        
+          <MdFlight className="searchpadicon" />
+          <span className="searchpadtext">search pad</span>
+       </div>
       </div>
-
 
       <div className="selected">
         <div className="three">
@@ -37,37 +35,37 @@ const Home = () => {
             </select>
           </div>
           <div className="input">
-          <span>To:</span>
+            <span>To:</span>
             <select className="option" id="destination" name="destination">
-              <option value="airport">DUBAI Inti Airport [ DAX ]</option>
-              <option value="airport">dUBAI Inti Airport [ DAX ]</option>
+              <option value="airport">Dubai Inti Airport [ DAX ]</option>
+              <option value="airport">Dubai Inti Airport [ DAX ]</option>
             </select>
           </div>
           <div className="input">
-        <span><FaCalendarAlt /></span>
+            <span><FaCalendarAlt /></span>
             <select className="option" id="destination" name="destination">
               <option value="deperture">Departure</option>
               <option value="deperture">Departure</option>
             </select>
           </div>
           <div className="input">
-         <span><FaCalendarAlt /></span>
+            <span><FaCalendarAlt /></span>
             <select className="option" id="destination" name="destination">
               <option value="return">Add Return</option>
               <option value="return">Add Return</option>
             </select>
           </div>
           <div className="input">
-        <span><FaUserAstronaut /></span>
+            <span><FaUserAstronaut /></span>
             <select className="option" id="destination" name="destination">
               <option value="class">Select Class</option>
               <option value="class">Select Class</option>
             </select>
           </div>
           <div className="input">
-         <span><FaPersonWalkingLuggage /></span>
+            <span><FaPersonWalkingLuggage /></span>
             <select className="option" id="destination" name="destination">
-            <option value="traveler">Select Traveler</option>
+              <option value="traveler">Select Traveler</option>
             </select>
           </div>
         </div>
